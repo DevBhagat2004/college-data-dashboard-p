@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive web app for exploring U.S. college data, including key statistics such as retention rates, graduation rates, and more.">
+    <meta name="author" content="Dev Bhagat">
+    <title>College Data Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>College Data Dashboard</h1>  
+    <form id="form1"> 
+        <label for="InputschoolName"> Enter School Name:</label>
+        <input type="text" id ="InputschoolName">
+        <button type = "submit">Submit</button>
+    </form>
+    <br>
+    <div class="data-boxes">
+        <div class="box box0">
+            <h3>Showing Results for:</h3>
+            <p id="instName">loading...</p>
+        </div>
+        <div class="box box1">
+            <h3>Retention Rate Full Time</h3>
+            <p id="fullTime">loading...</p>
+        </div>
+          <div class="box box2">
+            <h3>Retention Rate Part Time</h3>
+            <p id="partTime">loading...</p>
+        </div>
+        <div class="box box3">
+            <h3>Completion Rate 150% of Normal Time</h3>
+            <p id="completionRate">loading...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

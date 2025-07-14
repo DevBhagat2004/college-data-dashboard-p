@@ -1,0 +1,147 @@
+/* === Reset default styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* === Body === */
+body {
+  background: #f4f6f8;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+/* === Heading === */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+/* === Form Styling === */
+form {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 1rem;
+  color: #34495e;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+input[type="submit"],
+button[type="submit"] {
+  padding: 10px 16px;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+/* === Data Box Container === */
+.data-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* === Individual Data Box === */
+.box {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+/* === Box Title === */
+.box h3 {
+  font-size: 1.2rem;
+  color: #34495e;
+  margin-bottom: 12px;
+}
+
+/* === Box Value === */
+.box p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1abc9c;
+}
+
+/* === Optional: Color Variations === */
+.box1 p {
+  color: #3498db;
+}
+
+.box2 p {
+  color: #e67e22;
+}
+
+.box3 p {
+  color: #9b59b6;
+}
+
+/* === Responsive Behavior === */
+@media (max-width: 768px) {
+  .data-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="submit"] {
+    width: 100%;
+  }
+}
