@@ -2,6 +2,15 @@
 
 A responsive web application that allows users to search and explore U.S. college data including retention rates, completion rates, and other key statistics using the U.S. Department of Education's College Scorecard API.
 
+## 🚧 Development Status
+
+**This application is currently in active development.** More features and improvements are continuously being added. Stay tuned for regular updates!
+
+### Upcoming Versions
+
+- **Student Version**: A streamlined interface designed specifically for students researching colleges and universities
+- **Professional IR Version**: An advanced version tailored for Institutional Research professionals with enhanced analytics and reporting capabilities
+
 ## Features
 
 - **School Search**: Search for colleges and universities by name
@@ -124,6 +133,16 @@ For 4-year institutions:
 - Add data visualization charts
 - Include historical data trends
 - Add favorites/bookmarking feature
+- **Student Version**: User-friendly interface for college research
+- **Professional IR Version**: Advanced analytics for institutional research professionals
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
 
