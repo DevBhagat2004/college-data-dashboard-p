@@ -1,4 +1,4 @@
-const APIKEY = "";
+const APIKEY = "ADD YOUR API KEY HERE";
 
 document.getElementById("form1").addEventListener("submit",function(event){
 
