@@ -77,7 +77,7 @@ college-data-dashboard/
 
 ## API Integration
 
-This application uses the [U.S. Department of Education's College Scorecard API](https://collegescorecard.ed.gov/data/documentation/) to fetch:
+This application uses the [U.S. Department of Education's College Scorecard API](https://collegescorecard.ed.gov/data/api-documentation) to fetch:
 
 - School identification and basic information
 - Student retention rates (full-time and part-time)
@@ -135,10 +135,6 @@ For 4-year institutions:
 - Add favorites/bookmarking feature
 - **Student Version**: User-friendly interface for college research
 - **Professional IR Version**: Advanced analytics for institutional research professionals
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## License
 
