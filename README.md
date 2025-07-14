@@ -125,10 +125,6 @@ For 4-year institutions:
 - Include historical data trends
 - Add favorites/bookmarking feature
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Author
 
 **Dev Bhagat**
